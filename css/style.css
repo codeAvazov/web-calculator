@@ -43,7 +43,7 @@ body{
 
 .btn {
   margin: 5px 0;
-  width: 70px;
+  width: 23%;
   height: 70px;
   border-radius: 50%;
   cursor: pointer;
@@ -60,7 +60,7 @@ body{
 }
 
 .null {
-  width: 150px;
+  width: 49%;
   border-radius: 5rem;
   text-align: start;
   padding-left: 1rem;
@@ -77,4 +77,17 @@ body{
 
 .btn:focus {
   outline: none;
+}
+
+@media screen and (max-width : 767px) {
+  * {
+    font-size: 10px;
+  }
+  .btn {
+    height: 50px;
+  }
+
+  .calc-block{
+    width: 50vw;
+  }
 }
